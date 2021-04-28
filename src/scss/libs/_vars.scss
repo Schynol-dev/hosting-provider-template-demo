@@ -1,0 +1,45 @@
+// Misc.
+	$misc: (
+		z-index-base:		10000
+	);
+
+// Duration.
+	$duration: (
+		transition:			0.2s,
+		fade-in:			1s
+	);
+
+// Size.
+	$size: (
+		element-margin:		2em
+	);
+
+// Font.
+	$font: (
+		family:				('Raleway', 'sans-serif'),
+		family-nav:			('Montserrat', 'sans-serif'),
+		weight:				400,
+		weight-bold:		700
+	);
+
+// Palette.
+	$palette: (
+		bg:					#eaeaea,
+		bg-dark:			#252a34,
+		fg:					#474747,
+		fg-alt:				#f9f7f7,
+		fg-bold:			#474747,
+		border:				#08d9d6,
+		accent1: (
+			bg: #08d9d6,
+			fg: #fff
+		),
+		accent2: (
+			bg: #1E222A,
+			fg: #ff2e63
+		),
+		accent3: (
+			bg: #ff2e63,
+			fg: #fff
+		)
+	);
