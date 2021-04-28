@@ -1,0 +1,25 @@
+.menu {
+    background-color: #fff;
+    color: #000;
+}
+
+.nav {
+
+    &__item {
+        display: inline-block;
+        margin-left: 1em;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    &__dropdown {
+        margin-left: .15em;
+    }
+
+    &__link {
+        cursor: pointer;
+    }
+}
+

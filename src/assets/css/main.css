@@ -162,7 +162,6 @@ body, input, textarea, select {
   line-height: 1.5em;
   color: #474747;
   letter-spacing: 0.025em;
-  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -218,9 +217,9 @@ em, i {
 a {
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
-  color: #474747;
+  color: inherit;
   font-family: "Roboto", "sans-serif";
-  font-size: 1.375em;
+  font-size: 1.25em;
 }
 
 sub {
@@ -239,6 +238,10 @@ p, ul, ol, dl, table {
   font-size: 1.25em;
   margin-top: 0.5em;
   margin-bottom: 1em;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 .container {
@@ -299,5 +302,27 @@ p, ul, ol, dl, table {
 .wrapper.style3 {
   background-color: #3F72AF;
   color: #f9f7f7;
+}
+
+.menu {
+  background-color: #fff;
+  color: #000;
+}
+
+.nav__item {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.nav__item:first-child {
+  margin-left: 0;
+}
+
+.nav__dropdown {
+  margin-left: .15em;
+}
+
+.nav__link {
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
