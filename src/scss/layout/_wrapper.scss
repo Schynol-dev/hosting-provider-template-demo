@@ -1,8 +1,7 @@
 // Wrapper
 
 .wrapper {
-    padding: 5em 0 3em 0;
-    
+
     &.style1 {
         background-color: #fff;
     }
@@ -15,5 +14,9 @@
     &.style3 {
         background-color: _palette(bg-3);
         color: _palette(fg-alt);
+    }
+
+    &.padding {
+        padding: 5em 0 3em 0;
     }
 }

@@ -7,7 +7,8 @@ import {
 import './assets/fonts/fonts.css';
 import './assets/css/main.css';
 
-import Navigation from "./components/Navigation";
+import Navigation from './components/Navigation';
+import Hosting from './components/Hosting';
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
       <Navigation />
 
       <Switch>
-        <Route exact path="/"></Route>
+        <Route exact path="/">
+          <Hosting />
+        </Route>
       </Switch>
     </Router>
   );

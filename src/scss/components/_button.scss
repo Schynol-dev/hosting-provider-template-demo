@@ -1,0 +1,20 @@
+.button {
+    @include vendor('appearance', 'none');
+    @include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    height: 2.75em;
+    outline: 0;
+    padding: 0 5em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    font-family: _font(family);
+
+    &-header {
+        background: linear-gradient(to right, _palette(accent, bg), _palette(accent, bg-2));
+        font-size: 1.625rem;
+    }
+}

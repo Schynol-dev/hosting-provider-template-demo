@@ -1,0 +1,30 @@
+.wrapper {
+    background-image: url('../images/hosting-bg.svg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.hosting-header {
+    @include vendor('display', 'flex');
+    @include vendor('justify-content', 'space-between');
+    min-height: 80vh;
+
+    &__image {
+        max-width: auto;
+        max-height: 60vh;
+        margin: 7% 0 0 -8em;
+    }
+
+    &__content {
+        @include vendor('align-self', 'center');
+    }
+
+    &__title {
+        margin-bottom: 1rem;
+    }
+
+    &__text {
+        margin-bottom: 1rem;
+    }
+}

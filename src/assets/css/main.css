@@ -168,6 +168,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Archivo", "sans-serif";
   font-weight: 400;
   color: inherit;
+  line-height: 1em;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -282,10 +283,6 @@ p, ul, ol, dl, table {
   }
 }
 
-.wrapper {
-  padding: 5em 0 3em 0;
-}
-
 .wrapper.style1 {
   background-color: #fff;
 }
@@ -298,6 +295,10 @@ p, ul, ol, dl, table {
 .wrapper.style3 {
   background-color: #3F72AF;
   color: #f9f7f7;
+}
+
+.wrapper.padding {
+  padding: 5em 0 3em 0;
 }
 
 .menu {
@@ -324,6 +325,10 @@ p, ul, ol, dl, table {
   display: flex;
 }
 
+.nav {
+  margin-top: .25em;
+}
+
 .nav__item {
   display: inline-block;
   margin-left: 1.75em;
@@ -344,5 +349,74 @@ p, ul, ol, dl, table {
 
 .nav__cart {
   margin-left: 5em;
+}
+
+.wrapper {
+  background-image: url("../images/hosting-bg.svg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.hosting-header {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 80vh;
+}
+
+.hosting-header__image {
+  max-width: auto;
+  max-height: 60vh;
+  margin: 7% 0 0 -8em;
+}
+
+.hosting-header__content {
+  -webkit-align-self: center;
+  -ms-align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.hosting-header__title {
+  margin-bottom: 1rem;
+}
+
+.hosting-header__text {
+  margin-bottom: 1rem;
+}
+
+.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  height: 2.75em;
+  outline: 0;
+  padding: 0 5em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto", "sans-serif";
+}
+
+.button-header {
+  background: -webkit-gradient(linear, left top, right top, from(#F7616B), to(#B7256E));
+  background: linear-gradient(to right, #F7616B, #B7256E);
+  font-size: 1.625rem;
 }
 /*# sourceMappingURL=main.css.map */
