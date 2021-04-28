@@ -1,3 +1,5 @@
+import './assets/fonts/fonts.css';
+import './assets/css/main.css';
 
 function App() {
   return (

@@ -16,30 +16,23 @@
 
 // Font.
 	$font: (
-		family:				('Raleway', 'sans-serif'),
-		family-nav:			('Montserrat', 'sans-serif'),
+		family:				('Roboto', 'sans-serif'),
+		family-header:		('Archivo', 'sans-serif'),
 		weight:				400,
 		weight-bold:		700
 	);
 
 // Palette.
 	$palette: (
-		bg:					#eaeaea,
-		bg-dark:			#252a34,
+		bg:					#DBE2EF,
+		bg-2:				#112D4E,
+		bg-3:				#3F72AF,
 		fg:					#474747,
 		fg-alt:				#f9f7f7,
 		fg-bold:			#474747,
-		border:				#08d9d6,
 		accent1: (
-			bg: #08d9d6,
-			fg: #fff
-		),
-		accent2: (
-			bg: #1E222A,
-			fg: #ff2e63
-		),
-		accent3: (
-			bg: #ff2e63,
+			bg: #F7616B,
+			bg-2: #B7256E,
 			fg: #fff
 		)
 	);
