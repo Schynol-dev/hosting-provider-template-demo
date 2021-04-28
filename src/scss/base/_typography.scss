@@ -29,7 +29,6 @@
 		font-family: _font(family-header);
 		font-weight: _font(weight);
 		color: inherit;
-		// letter-spacing: -0.0325em;
 
 		a {
 			color: inherit;
@@ -39,33 +38,26 @@
 
 	h1 {
 		font-size: 3.125em;
-		line-height: 1.25em;
-		// letter-spacing: -0.05em;
 	}
 
 	h2 {
 		font-size: 2.8125em;
-		line-height: 1.25em;
 	}
 
 	h3 {
 		font-size: 2.5em;
-		line-height: 1.15em;
 	}
 
 	h4 {
 		font-size: 2.1875em;
-		line-height: 1.25em;
 	}
 
 	h5 {
 		font-size: 1.875em;
-		line-height: 1.15em;
 	}
 
 	h6 {
 		font-size: 1.5625em;
-		line-height: 1.15em;
 	}
 
 	strong, b {
@@ -98,10 +90,12 @@
 
 	p, ul, ol, dl, table {
 		font-size: 1.25em;
-		margin-top: 0.5em;
-		margin-bottom: 1em;
 	}
 
 	.bold {
 		font-weight: _font(weight-bold);
+	}
+
+	.bold-black {
+		font-weight: _font(weight-black);
 	}

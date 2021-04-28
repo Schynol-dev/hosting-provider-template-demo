@@ -1,11 +1,12 @@
-import arrow from '../assets/icons/arrow-down.svg'
+import arrow from '../assets/icons/arrow-down.svg';
+import cart from '../assets/icons/cart.svg';
 
 function Navigation() {
 
     return (
         <div className="menu">
-            <div className="menu__logo">
-                <h4 className="menu__name bold">LiveHost</h4>
+            <div className="menu__brand">
+                <h4 className="menu__logo bold-black">LiveHost</h4>
             </div>
             <div className="menu__links">
                 <ul className="nav">
@@ -15,7 +16,7 @@ function Navigation() {
                     <li className="nav__item">Email<img className="nav__dropdown" src={arrow} /></li>
                 </ul>
                 <ul className="nav">
-                    <li className="nav__item"><img className="nav__cart" /></li>
+                    <li className="nav__item"><img className="nav__cart" src={cart} /></li>
                     <li className="nav__item"><a className="nav__link bold">Login</a></li>
                 </ul>
             </div>    
