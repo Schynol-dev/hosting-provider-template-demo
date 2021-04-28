@@ -363,7 +363,7 @@ p, ul, ol, dl, table {
   margin-left: 5em;
 }
 
-.wrapper {
+.bg-hosting {
   background-image: url("../images/hosting-bg.svg");
   background-size: cover;
   background-position: center center;
