@@ -325,8 +325,20 @@ p, ul, ol, dl, table {
   padding: 1.25em 6em;
 }
 
-.nav {
-  margin-top: .25em;
+.menu__left-side {
+  -webkit-align-self: center;
+  -ms-align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.menu__right-side {
+  -webkit-align-self: center;
+  -ms-align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .nav__item {
@@ -407,7 +419,6 @@ p, ul, ol, dl, table {
   display: inline-block;
   height: 2.75em;
   outline: 0;
-  padding: 0 5em;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -418,5 +429,20 @@ p, ul, ol, dl, table {
   background: -webkit-gradient(linear, left top, right top, from(#F7616B), to(#B7256E));
   background: linear-gradient(to right, #F7616B, #B7256E);
   font-size: 1.625rem;
+  padding: 0 5em;
+}
+
+.button-empty {
+  background: transparent;
+  border: solid 3px #000;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  padding: 0 3em;
+  text-transform: uppercase;
+}
+
+.button-empty:hover {
+  background-color: #000;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

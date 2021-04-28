@@ -7,7 +7,6 @@
     display: inline-block;
     height: 2.75em;
     outline: 0;
-    padding: 0 5em;
     position: relative;
     text-align: center;
     text-decoration: none;
@@ -16,5 +15,20 @@
     &-header {
         background: linear-gradient(to right, _palette(accent, bg), _palette(accent, bg-2));
         font-size: 1.625rem;
+        padding: 0 5em;
+    }
+
+    &-empty {
+        background: transparent;
+        border: solid 3px #000;
+        border-radius: 5px;
+        font-size: 1.25rem; 
+        padding: 0 3em;
+        text-transform: uppercase;
+
+        &:hover {
+            background-color: #000;
+            color: #fff;
+        }
     }
 }

@@ -1,4 +1,7 @@
+import { Link } from 'react-router-dom';
+
 import modems from '../assets/images/modems.svg';
+import Navigation from './Navigation';
 
 function Hosting() {
 
@@ -14,6 +17,18 @@ function Hosting() {
                     </div>
                 </div>
             </div>
+            <Navigation 
+                leftContent={
+                <>
+                    <ul className="nav">
+                        <li className="nav__item"><Link className="nav__link">Plans</Link></li>
+                        <li className="nav__item"><Link className="nav__link">Compare</Link></li>
+                        <li className="nav__item"><Link className="nav__link">FAQ</Link></li>
+                    </ul>
+                </>
+                }
+                rightContent={<button className="button button-empty">Get Started</button>}
+            />
         </div>
     );
 }

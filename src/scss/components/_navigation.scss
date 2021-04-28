@@ -5,10 +5,17 @@
     color: #000;
 
     padding: 1.25em 6em;
+
+    &__left-side {
+        @include vendor('align-self', 'center');
+    }
+
+    &__right-side {
+        @include vendor('align-self', 'center');
+    }
 }
 
 .nav {
-    margin-top: .25em;
 
     &__item {
         display: inline-block;
