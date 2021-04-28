@@ -1,19 +1,19 @@
 // Wrapper
 
-// .wrapper {
-//     padding: 5em 0 3em 0;
+.wrapper {
+    padding: 5em 0 3em 0;
     
-//     &.style1 {
-//         background-color: #fff;
-//     }
+    &.style1 {
+        background-color: #fff;
+    }
 
-//     &.style2 {
-//         background-color: _palette(bg-dark);
-//         color: _palette(fg-alt);
-//     }
+    &.style2 {
+        background-color: _palette(bg-2);
+        color: _palette(fg-alt);
+    }
 
-//     &.style3 {
-//         background-color: _palette(accent2, bg);
-//         color: _palette(fg-alt);
-//     }
-// }
+    &.style3 {
+        background-color: _palette(bg-3);
+        color: _palette(fg-alt);
+    }
+}

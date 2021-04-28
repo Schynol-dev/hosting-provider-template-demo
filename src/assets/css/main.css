@@ -282,4 +282,22 @@ p, ul, ol, dl, table {
     width: 100%;
   }
 }
+
+.wrapper {
+  padding: 5em 0 3em 0;
+}
+
+.wrapper.style1 {
+  background-color: #fff;
+}
+
+.wrapper.style2 {
+  background-color: #112D4E;
+  color: #f9f7f7;
+}
+
+.wrapper.style3 {
+  background-color: #3F72AF;
+  color: #f9f7f7;
+}
 /*# sourceMappingURL=main.css.map */
