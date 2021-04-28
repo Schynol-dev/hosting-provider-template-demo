@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import arrow from '../assets/icons/arrow-down.svg';
 import cart from '../assets/icons/cart.svg';
 
@@ -10,14 +12,14 @@ function Navigation() {
             </div>
             <div className="menu__links">
                 <ul className="nav">
-                    <li className="nav__item">Website Builder</li>
-                    <li className="nav__item">Hosting<img className="nav__dropdown" src={arrow} /></li>
-                    <li className="nav__item">Domain<img className="nav__dropdown" src={arrow} /></li>
-                    <li className="nav__item">Email<img className="nav__dropdown" src={arrow} /></li>
+                    <li className="nav__item"><Link className="nav__link">Website Builder</Link></li>
+                    <li className="nav__item"><Link className="nav__link">Hosting</Link><img className="nav__dropdown" src={arrow} /></li>
+                    <li className="nav__item"><Link className="nav__link">Domain</Link><img className="nav__dropdown" src={arrow} /></li>
+                    <li className="nav__item"><Link className="nav__link">Email</Link><img className="nav__dropdown" src={arrow} /></li>
                 </ul>
                 <ul className="nav">
                     <li className="nav__item"><img className="nav__cart" src={cart} /></li>
-                    <li className="nav__item"><a className="nav__link bold">Login</a></li>
+                    <li className="nav__item"><Link className="nav__link bold">Login</Link></li>
                 </ul>
             </div>    
         </div>

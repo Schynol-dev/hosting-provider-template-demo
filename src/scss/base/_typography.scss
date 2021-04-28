@@ -37,27 +37,27 @@
 	}
 
 	h1 {
-		font-size: 3.125em;
+		font-size: 3.125rem;
 	}
 
 	h2 {
-		font-size: 2.8125em;
+		font-size: 2.8125rem;
 	}
 
 	h3 {
-		font-size: 2.5em;
+		font-size: 2.5rem;
 	}
 
 	h4 {
-		font-size: 2.1875em;
+		font-size: 2.1875rem;
 	}
 
 	h5 {
-		font-size: 1.875em;
+		font-size: 1.875rem;
 	}
 
 	h6 {
-		font-size: 1.5625em;
+		font-size: 1.5625rem;
 	}
 
 	strong, b {
@@ -73,7 +73,7 @@
 		@include vendor('transition', 'color #{_duration(transition)} ease-in-out');
 		color: inherit;
 		font-family: _font(family);
-		font-size: 1.25em;
+		font-size: 1.25rem;
 	}
 
 	sub {
@@ -89,7 +89,7 @@
 	}
 
 	p, ul, ol, dl, table {
-		font-size: 1.25em;
+		font-size: 1.25rem;
 	}
 
 	.bold {
