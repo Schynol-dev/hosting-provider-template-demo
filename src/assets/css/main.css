@@ -317,6 +317,24 @@ p, ul, ol, dl, table {
           justify-content: space-between;
 }
 
+.flex-container.border-top {
+  border-top: 1px solid rgba(97, 161, 161, 0.2);
+}
+
+.flex-container .flex-item.center {
+  -webkit-align-self: center;
+  -ms-align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.flex-container .flex-item.padding {
+  padding: 1.5em 0;
+}
+
 .menu {
   display: -moz-flex;
   display: -ms-flex;
@@ -515,5 +533,34 @@ p, ul, ol, dl, table {
 .banner__icon {
   height: 2.85em;
   width: auto;
+}
+
+.content__header {
+  color: #828282;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.content__item {
+  margin-top: 1em;
+}
+
+.collapse {
+  background-color: #fff;
+  padding: 1em 1em;
+  cursor: pointer;
+}
+
+.collapse__icon {
+  margin-right: .25em;
+}
+
+.collapse__icon.rotate {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.collapse__content.hidden {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */

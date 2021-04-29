@@ -4,4 +4,19 @@
     &.space-between {
         @include vendor('justify-content', 'space-between');
     }
+
+    &.border-top {
+        border-top: 1px solid rgba(97, 161, 161, 0.2);
+    }
+
+    .flex-item {
+        &.center {
+            @include vendor('align-self', 'center');
+            @include vendor('justify-self', 'center');
+        }
+
+        &.padding {
+            padding: 1.5em 0;
+        }
+    }
 }

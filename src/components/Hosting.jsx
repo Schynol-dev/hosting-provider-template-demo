@@ -4,6 +4,7 @@ import modems from '../assets/images/modems.svg';
 import phone from '../assets/icons/phone.svg';
 import Navigation from './Navigation';
 import Card from './Card';
+import Collapse from './Collapse';
 
 function Hosting() {
 
@@ -103,6 +104,78 @@ function Hosting() {
                 </div>    
             </div>
         </div>
+
+        <section id="compare" className="wrapper padding">
+            <div className="container">
+                <div className="content">
+                    <h3 className="content__header">Compare our plans</h3>
+                    <div className="flex-container space-between">
+                        <div className="flex-item center padding"></div>
+                        <div className="flex-item center padding"><h3>Basic</h3></div>
+                        <div className="flex-item center padding"><h3>Deluxe</h3></div>
+                        <div className="flex-item center padding"><h3>Ultimate</h3></div>
+                    </div>
+                    <div className="flex-container space-between border-top">
+                        <div className="flex-item center padding"><p>Websites</p></div>
+                        <div className="flex-item center padding"><p>1</p></div>
+                        <div className="flex-item center padding"><p>Unlimited</p></div>
+                        <div className="flex-item center padding"><p>Unlimited</p></div>
+                    </div>
+                    <div className="flex-container space-between border-top">
+                        <div className="flex-item center padding"><p>Websites</p></div>
+                        <div className="flex-item center padding"><p>1</p></div>
+                        <div className="flex-item center padding"><p>Unlimited</p></div>
+                        <div className="flex-item center padding"><p>Unlimited</p></div>
+                    </div>
+                    <div className="flex-container space-between border-top">
+                        <div className="flex-item center padding"><p>Websites</p></div>
+                        <div className="flex-item center padding"><p>1</p></div>
+                        <div className="flex-item center padding"><p>Unlimited</p></div>
+                        <div className="flex-item center padding"><p>Unlimited</p></div>
+                    </div>
+                    <div className="flex-container space-between border-top">
+                        <div className="flex-item center padding"><p>Websites</p></div>
+                        <div className="flex-item center padding"><p>1</p></div>
+                        <div className="flex-item center padding"><p>Unlimited</p></div>
+                        <div className="flex-item center padding"><p>Unlimited</p></div>
+                    </div>
+                    <div className="flex-container space-between border-top">
+                        <div className="flex-item center padding"><p>Websites</p></div>
+                        <div className="flex-item center padding"><p>1</p></div>
+                        <div className="flex-item center padding"><p>Unlimited</p></div>
+                        <div className="flex-item center padding"><p>Unlimited</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" className="wrapper padding">
+            <div className="container">
+                <div className="content">
+                    <h4 className="content__header">Frequently asked questions</h4>
+                    <div className="content__item">
+                        <Collapse title='Lorem ipsum dolor sit amet, consetetur sadipscing elitr?'>
+                            <p>Testing content</p>
+                        </Collapse>
+                    </div>
+                    <div className="content__item">
+                        <Collapse title='Lorem ipsum dolor sit amet, consetetur sadipscing elitr?'>
+                            <p>Testing content</p>
+                        </Collapse>
+                    </div>
+                    <div className="content__item">
+                        <Collapse title='Lorem ipsum dolor sit amet, consetetur sadipscing elitr?'>
+                            <p>Testing content</p>
+                        </Collapse>
+                    </div>
+                    <div className="content__item">
+                        <Collapse title='Lorem ipsum dolor sit amet, consetetur sadipscing elitr?'>
+                            <p>Testing content</p>
+                        </Collapse>
+                    </div>
+                </div>
+            </div>
+        </section>
         </>
     );
 }

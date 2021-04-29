@@ -1,0 +1,23 @@
+.collapse {
+    background-color: #fff;
+    padding: 1em 1em;
+    cursor: pointer;
+
+    &__icon {
+        margin-right: .25em;
+    }
+
+    &__icon {
+
+        &.rotate {
+            transform: rotate(90deg);
+        }
+    }
+
+    &__content {
+
+        &.hidden {
+            display: none;
+        }
+    }
+}
