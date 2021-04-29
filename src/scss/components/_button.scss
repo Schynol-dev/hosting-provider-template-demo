@@ -31,4 +31,19 @@
             color: #fff;
         }
     }
+
+    &-card {
+        background-color: #000;
+        border: solid 3px #000;
+        border-radius: 5px;
+        color: #fff;
+        height: 2.2em;
+        font-size: 1.25rem;
+        width: 100%;
+
+        &:hover {
+            background-color: #fff;
+            color: #000; 
+        }
+    }
 }

@@ -36,21 +36,65 @@ function Hosting() {
 
         <section id="plans" className="wrapper padding">
             <div className="container">
-                <Card 
-                    title='Basic'
-                    description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
-                    price='Starting at $4.00/mo*'
-                    option='$4.00/mo (billed $96 for 24 mos)'
-                    items={[
-                        '1 website',
-                        'Unlimited storage',
-                        'Scalable bandwidth',
-                        'Free SSL by Lets Encrypt',
-                        '10 databases'
-                    ]}
-                />
+                <div className="flex-container space-between">
+                    <Card 
+                        title='Basic'
+                        description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+                        price='Starting at $4.00/mo*'
+                        options={[
+                            '$4.00/mo (billed $96 for 24 mos)', 
+                            '$4.00/mo (billed $96 for 24 mos)',
+                            '$4.00/mo (billed $96 for 24 mos)'
+                        ]}
+                        items={[
+                            '1 website',
+                            'Unlimited storage',
+                            'Scalable bandwidth',
+                            'Free SSL by Lets Encrypt',
+                            '10 databases'
+                        ]}
+                    />
+                    <Card 
+                        title='Deluxe'
+                        description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+                        price='Starting at $4.00/mo*'
+                        options={[
+                            '$4.00/mo (billed $96 for 24 mos)', 
+                            '$4.00/mo (billed $96 for 24 mos)',
+                            '$4.00/mo (billed $96 for 24 mos)'
+                        ]}
+                        items={[
+                            '1 website',
+                            'Unlimited storage',
+                            'Scalable bandwidth',
+                            'Free SSL by Lets Encrypt',
+                            '10 databases'
+                        ]}
+                    />
+                    <Card 
+                        title='Ultimate'
+                        description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+                        price='Starting at $4.00/mo*'
+                        options={[
+                            '$4.00/mo (billed $96 for 24 mos)', 
+                            '$4.00/mo (billed $96 for 24 mos)',
+                            '$4.00/mo (billed $96 for 24 mos)'
+                        ]}
+                        items={[
+                            '1 website',
+                            'Unlimited storage',
+                            'Scalable bandwidth',
+                            'Free SSL by Lets Encrypt',
+                            '10 databases'
+                        ]}
+                    />    
+                </div>
             </div>
         </section>
+
+        <div className="wrapper style3 padding bg-banner">
+            <div className="banner"></div>
+        </div>
         </>
     );
 }

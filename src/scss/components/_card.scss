@@ -1,0 +1,26 @@
+.card {
+    background-color: #fff;
+    padding: 3.5em .5em 2em .5em;
+    min-width: 32%;
+
+    &__description, &__price {
+        font-size: .875rem;
+    }
+
+    &__selection, &__description {
+        margin-bottom: .75em;
+    }
+
+    &__select {
+        padding: .75em 1.25em;
+        width: 100%;
+    }
+}
+
+.list {
+
+    &__item {
+        font-size: .875rem;
+        margin-top: 1em;
+    }
+}

@@ -1,3 +1,7 @@
 .flex-container {
     @include vendor('display', 'flex');
+
+    &.space-between {
+        @include vendor('justify-content', 'space-between');
+    }
 }

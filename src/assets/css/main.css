@@ -309,6 +309,14 @@ p, ul, ol, dl, table {
   display: flex;
 }
 
+.flex-container.space-between {
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .menu {
   display: -moz-flex;
   display: -ms-flex;
@@ -444,5 +452,44 @@ p, ul, ol, dl, table {
 .button-empty:hover {
   background-color: #000;
   color: #fff;
+}
+
+.button-card {
+  background-color: #000;
+  border: solid 3px #000;
+  border-radius: 5px;
+  color: #fff;
+  height: 2.2em;
+  font-size: 1.25rem;
+  width: 100%;
+}
+
+.button-card:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.card {
+  background-color: #fff;
+  padding: 3.5em .5em 2em .5em;
+  min-width: 32%;
+}
+
+.card__description, .card__price {
+  font-size: .875rem;
+}
+
+.card__selection, .card__description {
+  margin-bottom: .75em;
+}
+
+.card__select {
+  padding: .75em 1.25em;
+  width: 100%;
+}
+
+.list__item {
+  font-size: .875rem;
+  margin-top: 1em;
 }
 /*# sourceMappingURL=main.css.map */
