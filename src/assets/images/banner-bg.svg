@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1953.094" height="684.554" viewBox="0 0 1953.094 684.554">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #dbe2ef;
+        stroke-width: 3px;
+        opacity: 0.2;
+      }
+
+      .cls-2 {
+        fill: #dbe2ef;
+        opacity: 0.15;
+      }
+    </style>
+  </defs>
+  <g id="Banner-bg" transform="translate(1.189 -1773.446)">
+    <path id="Path_199" data-name="Path 199" class="cls-1" d="M0,2268s240.359-312.261,554.675-195.163,336.913,260.9,579.327,279.392,786.816-353.348,786.816-353.348"/>
+    <path id="Polygon_3" data-name="Polygon 3" class="cls-2" d="M219,0,438,379H0Z" transform="matrix(0.819, 0.574, -0.574, 0.819, 334.376, 1863.719)"/>
+    <path id="Polygon_4" data-name="Polygon 4" class="cls-2" d="M145,0,290,251H0Z" transform="translate(677.997 2086.954) rotate(-24)"/>
+    <path id="Polygon_5" data-name="Polygon 5" class="cls-2" d="M288.247,0,576.494,498.966H0Z" transform="translate(1421.24 1773.446) rotate(23)"/>
+  </g>
+</svg>

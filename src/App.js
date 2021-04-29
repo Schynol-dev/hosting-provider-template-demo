@@ -22,12 +22,12 @@ function App() {
           <div className="flex-container">
             <ul className="nav">
                 <li className="nav__item"><Link className="nav__link">Website Builder</Link></li>
-                <li className="nav__item"><Link className="nav__link">Hosting</Link><img className="nav__dropdown" src={arrow} /></li>
-                <li className="nav__item"><Link className="nav__link">Domain</Link><img className="nav__dropdown" src={arrow} /></li>
-                <li className="nav__item"><Link className="nav__link">Email</Link><img className="nav__dropdown" src={arrow} /></li>
+                <li className="nav__item"><Link className="nav__link">Hosting</Link><img className="nav__dropdown" src={arrow} alt="arrow down" /></li>
+                <li className="nav__item"><Link className="nav__link">Domain</Link><img className="nav__dropdown" src={arrow} alt="arrow down" /></li>
+                <li className="nav__item"><Link className="nav__link">Email</Link><img className="nav__dropdown" src={arrow} alt="arrow down" /></li>
             </ul>
             <ul className="nav">
-                <li className="nav__item"><img className="nav__cart" src={cart} /></li>
+                <li className="nav__item"><img className="nav__cart" src={cart} alt="cart" /></li>
                 <li className="nav__item"><Link className="nav__link bold">Login</Link></li>
             </ul>
           </div>

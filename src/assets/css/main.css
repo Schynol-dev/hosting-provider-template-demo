@@ -492,4 +492,28 @@ p, ul, ol, dl, table {
   font-size: .875rem;
   margin-top: 1em;
 }
+
+.bg-banner {
+  background: url("../images/banner-bg.svg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.banner__header {
+  margin-bottom: 1em;
+}
+
+.banner__text {
+  line-height: 2em;
+}
+
+.banner__number {
+  margin-top: 1em;
+}
+
+.banner__icon {
+  height: 2.85em;
+  width: auto;
+}
 /*# sourceMappingURL=main.css.map */

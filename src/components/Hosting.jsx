@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import modems from '../assets/images/modems.svg';
+import phone from '../assets/icons/phone.svg';
 import Navigation from './Navigation';
 import Card from './Card';
 
@@ -11,7 +12,7 @@ function Hosting() {
         <div className="wrapper style2 bg-hosting">
             <div className="container">
                 <div className="hosting-header">
-                    <img className="hosting-header__image" src={modems} />
+                    <img className="hosting-header__image" src={modems} alt="modems" />
                     <div className="hosting-header__content">
                         <h3 className="hosting-header__title bold-black">Fast and Secure Web Hosting</h3>
                         <p className="hosting-header__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
@@ -93,7 +94,14 @@ function Hosting() {
         </section>
 
         <div className="wrapper style3 padding bg-banner">
-            <div className="banner"></div>
+            <div className="container">
+                <div className="banner">
+                    <h2 className="banner__header">Need some help?</h2>
+                    <p className="banner__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    <p className="banner__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                    <h4 className="banner__number"><img className="banner__icon" scr={phone} alt="phone" />(000) 000-0000</h4>
+                </div>    
+            </div>
         </div>
         </>
     );
