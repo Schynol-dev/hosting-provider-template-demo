@@ -13,6 +13,10 @@
     &__right-side {
         @include vendor('align-self', 'center');
     }
+
+    &__shadow {
+        box-shadow: 0 6px 6px 0 rgba(#000, .2);
+    }
 }
 
 .nav {

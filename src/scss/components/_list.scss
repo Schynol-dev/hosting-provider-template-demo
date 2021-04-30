@@ -1,0 +1,43 @@
+.list {
+
+    &__item {
+        margin-top: 1em;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    &-inline {
+
+        &__item {
+            display: inline-block;
+            margin-left: 1.75em;
+    
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    
+        &__dropdown {
+            margin-left: .25em;
+        }
+    
+        &__link {
+            cursor: pointer;
+            text-decoration: none;
+        }
+    
+        &__cart {
+            margin-left: 5em;
+        }
+    }
+
+    &-card {
+        
+        &__item {
+            font-size: .875rem;
+            margin-top: 1em;
+        }
+    }
+}

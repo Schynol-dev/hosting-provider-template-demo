@@ -16,6 +16,10 @@
         background: linear-gradient(to right, _palette(accent, bg), _palette(accent, bg-2));
         font-size: 1.625rem;
         padding: 0 5em;
+
+        &:hover {
+            color: darken(#fff, 30);
+        }
     }
 
     &-empty {

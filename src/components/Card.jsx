@@ -1,7 +1,7 @@
 function Card(props) {
 
     return (
-        <div className="card">
+        <div className="card card__shadow">
             <div className="card__header">
                 <h5 className="card__title">{props.title}</h5>
                 <p className="card__description">{props.description}</p>
@@ -18,10 +18,10 @@ function Card(props) {
                 </select>
             </div>
             <button className="button button-card">Buy Now</button>
-            <ul className="list">
+            <ul className="list-card">
                 {
                     props.items!=null && Array.isArray(props.items) ?
-                        props.items.map((item) => <li className="list__item">{item}</li>)
+                        props.items.map((item) => <li className="list-card__item">{item}</li>)
                     :
                         <></>
                 }

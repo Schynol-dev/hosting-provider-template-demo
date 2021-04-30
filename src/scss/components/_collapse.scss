@@ -21,4 +21,8 @@
             display: none;
         }
     }
+
+    &__shadow {
+        box-shadow: 6px 6px 6px 0 rgba(#000, .2);
+    }
 }

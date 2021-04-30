@@ -15,12 +15,8 @@
         padding: .75em 1.25em;
         width: 100%;
     }
-}
 
-.list {
-
-    &__item {
-        font-size: .875rem;
-        margin-top: 1em;
+    &__shadow {
+        box-shadow: 6px 6px 6px 0 rgba(#000, .2);
     }
 }

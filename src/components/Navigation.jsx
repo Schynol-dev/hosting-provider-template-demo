@@ -1,7 +1,7 @@
 function Navigation(props) {
 
     return (
-        <div className="menu">
+        <div className={`menu ${props.shadow ? 'menu__shadow' : ''}`}>
             <div className="menu__left-side">
                 {props.leftContent}
             </div>
