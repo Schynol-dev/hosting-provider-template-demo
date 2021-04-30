@@ -12,6 +12,7 @@ import cart from './assets/icons/cart.svg';
 
 import Navigation from './components/Navigation';
 import Hosting from './components/Hosting';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -39,6 +40,8 @@ function App() {
           <Hosting />
         </Route>
       </Switch>
+
+      <Footer />
     </Router>
   );
 }

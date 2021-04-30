@@ -560,7 +560,38 @@ p, ul, ol, dl, table {
           transform: rotate(90deg);
 }
 
+.collapse__content {
+  padding: 1em 1em 1em 1.25em;
+}
+
 .collapse__content.hidden {
   display: none;
+}
+
+.domain__search {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  border: none;
+  border-bottom: 3px solid #fff;
+  background: transparent;
+  color: #f9f7f7;
+  display: block;
+  padding: .65em .75em;
+  height: 3em;
+  outline: none;
+  width: 50%;
+}
+
+.links {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.links__item {
+  margin-top: 1em;
 }
 /*# sourceMappingURL=main.css.map */

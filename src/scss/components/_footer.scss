@@ -1,0 +1,25 @@
+.domain {
+
+    &__search {
+        @include vendor('appearance', 'none');
+        @include vendor('transition', ('border-color #{_duration(transition)} ease-in-out', 'color #{_duration(transition)} ease-in-out'));
+        border: none;
+        border-bottom: 3px solid #fff;
+        background: transparent;
+        color: _palette(fg-alt);
+        display: block;
+        padding: .65em .75em;
+        height: 3em;
+        outline: none;
+        width: 50%;
+    }
+}
+
+.links {
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    &__item {
+        margin-top: 1em;
+    }
+}
