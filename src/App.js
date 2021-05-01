@@ -11,13 +11,14 @@ import arrow from './assets/icons/arrow-down.svg';
 import cart from './assets/icons/cart.svg';
 
 import Navigation from './components/Navigation';
+import DropdownNav from './components/DropdownNav';
 import Hosting from './components/Hosting';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
-      <Navigation 
+      {/* <Navigation 
         leftContent={<h4 className="bold-black">LiveHost</h4>}
         rightContent={
           <div className="flex-container">
@@ -33,7 +34,8 @@ function App() {
             </ul>
           </div>
         }
-      />
+      /> */}
+      <DropdownNav />
 
       <Switch>
         <Route exact path="/">

@@ -1,0 +1,20 @@
+.dropdown {
+    position: relative;
+
+    &__list {
+        background: #fff;
+        position: absolute;
+        padding: 1em 0 .5em 25%;
+        margin-left: -25%;
+        width: 150%;
+
+        &--hidden {
+            display: none;
+        }
+    }
+
+    &__link {
+        cursor: pointer;
+        text-decoration: none;
+    }
+}

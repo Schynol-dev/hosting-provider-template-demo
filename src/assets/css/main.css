@@ -612,6 +612,11 @@ p, ul, ol, dl, table {
   margin-top: 0;
 }
 
+.list__link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .list-inline__item {
   display: inline-block;
   margin-left: 1.75em;
@@ -637,5 +642,26 @@ p, ul, ol, dl, table {
 .list-card__item {
   font-size: .875rem;
   margin-top: 1em;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown__list {
+  background: #fff;
+  position: absolute;
+  padding: 1em 0 .5em 25%;
+  margin-left: -25%;
+  width: 150%;
+}
+
+.dropdown__list--hidden {
+  display: none;
+}
+
+.dropdown__link {
+  cursor: pointer;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

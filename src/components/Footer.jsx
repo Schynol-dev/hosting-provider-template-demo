@@ -18,28 +18,28 @@ function Footer() {
                         <div className="flex-item">
                             <ul className="list">
                                 <li className="list__item bold">Support</li>
-                                <li className="list__item">Link</li>
-                                <li className="list__item">Link</li>
-                                <li className="list__item">Link</li>
+                                <li className="list__item list__link">Link</li>
+                                <li className="list__item list__link">Link</li>
+                                <li className="list__item list__link">Link</li>
                             </ul>
                         </div>
                         <div className="flex-item">
                             <ul className="list">
                                 <li className="list__item bold">Support</li>
-                                <li className="list__item">Link</li>
-                                <li className="list__item">Link</li>
-                                <li className="list__item">Link</li>
-                                <li className="list__item">Link</li>
-                                <li className="list__item">Link</li>
+                                <li className="list__item list__link">Link</li>
+                                <li className="list__item list__link">Link</li>
+                                <li className="list__item list__link">Link</li>
+                                <li className="list__item list__link">Link</li>
+                                <li className="list__item list__link">Link</li>
                             </ul>
                         </div>
                         <div className="flex-item">
                             <ul className="list">
                                 <li className="list__item bold">Support</li>
-                                <li className="list__item">Link</li>
-                                <li className="list__item">Link</li>
-                                <li className="list__item">Link</li>
-                                <li className="list__item">Link</li>
+                                <li className="list__item list__link">Link</li>
+                                <li className="list__item list__link">Link</li>
+                                <li className="list__item list__link">Link</li>
+                                <li className="list__item list__link">Link</li>
                             </ul>
                         </div>
                     </div>
@@ -50,11 +50,11 @@ function Footer() {
                     </div>
                     <div className="flex-item">
                         <ul className="list-inline">
-                            <li className="list-inline__item"><img src={facebook} alt="facebook" /></li>
-                            <li className="list-inline__item"><img src={twitter} alt="twitter" /></li>
-                            <li className="list-inline__item"><img src={instagram} alt="instagram" /></li>
-                            <li className="list-inline__item"><img src={pinterest} alt="pinterest" /></li>
-                            <li className="list-inline__item"><img src={youtube} alt="youtube" /></li>
+                            <li className="list-inline__item list__link"><img src={facebook} alt="facebook" /></li>
+                            <li className="list-inline__item list__link"><img src={twitter} alt="twitter" /></li>
+                            <li className="list-inline__item list__link"><img src={instagram} alt="instagram" /></li>
+                            <li className="list-inline__item list__link"><img src={pinterest} alt="pinterest" /></li>
+                            <li className="list-inline__item list__link"><img src={youtube} alt="youtube" /></li>
                         </ul>
                     </div>
                 </div>
