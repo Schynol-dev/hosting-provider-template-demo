@@ -1,14 +1,11 @@
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 import './assets/fonts/fonts.css';
 import './assets/css/main.css';
-import arrow from './assets/icons/arrow-down.svg';
-import cart from './assets/icons/cart.svg';
 
 import Navigation from './components/Navigation';
 import DropdownNav from './components/DropdownNav';
