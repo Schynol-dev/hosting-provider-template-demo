@@ -7,7 +7,6 @@ import {
 import './assets/fonts/fonts.css';
 import './assets/css/main.css';
 
-import Navigation from './components/Navigation';
 import DropdownNav from './components/DropdownNav';
 import Hosting from './components/Hosting';
 import Footer from './components/Footer';
