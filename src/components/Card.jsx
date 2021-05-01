@@ -11,7 +11,7 @@ function Card(props) {
                 <select className="card__select">
                     {
                         props.options!=null && Array.isArray(props.options) ?
-                            props.options.map((option) => <option>{option}</option>)
+                            props.options.map((option, i) => <option key={i}>{option}</option>)
                         :
                             <></>
                     }
@@ -21,7 +21,7 @@ function Card(props) {
             <ul className="list-card">
                 {
                     props.items!=null && Array.isArray(props.items) ?
-                        props.items.map((item) => <li className="list-card__item">{item}</li>)
+                        props.items.map((item, i) => <li key={i} className="list-card__item">{item}</li>)
                     :
                         <></>
                 }

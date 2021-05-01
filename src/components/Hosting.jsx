@@ -27,9 +27,9 @@ function Hosting() {
             leftContent={
             <>
                 <ul className="list-inline">
-                    <li className="list-inline__item"><Link className="list-inline__link">Plans</Link></li>
-                    <li className="list-inline__item"><Link className="list-inline__link">Compare</Link></li>
-                    <li className="list-inline__item"><Link className="list-inline__link">FAQ</Link></li>
+                    <li className="list-inline__item"><Link to="#" className="list-inline__link">Plans</Link></li>
+                    <li className="list-inline__item"><Link to="#" className="list-inline__link">Compare</Link></li>
+                    <li className="list-inline__item"><Link to="#" className="list-inline__link">FAQ</Link></li>
                 </ul>
             </>
             }
@@ -40,7 +40,7 @@ function Hosting() {
         <section id="plans" className="wrapper padding">
             <div className="container">
                 <div className="flex-container space-between">
-                    <Card 
+                    <Card
                         title='Basic'
                         description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
                         price='Starting at $4.00/mo*'

@@ -18,23 +18,6 @@ import Footer from './components/Footer';
 function App() {
   return (
     <Router>
-      {/* <Navigation 
-        leftContent={<h4 className="bold-black">LiveHost</h4>}
-        rightContent={
-          <div className="flex-container">
-            <ul className="list-inline">
-                <li className="list-inline__item"><Link to="#" className="list-inline__link">Website Builder</Link></li>
-                <li className="list-inline__item"><Link to="#" className="list-inline__link">Hosting</Link><img className="list-inline__dropdown" src={arrow} alt="arrow down" /></li>
-                <li className="list-inline__item"><Link to="#" className="list-inline__link">Domain</Link><img className="list-inline__dropdown" src={arrow} alt="arrow down" /></li>
-                <li className="list-inline__item"><Link to="#" className="list-inline__link">Email</Link><img className="list-inline__dropdown" src={arrow} alt="arrow down" /></li>
-            </ul>
-            <ul className="list-inline">
-                <li className="list-inline__item"><img className="list-inline__cart" src={cart} alt="cart" /></li>
-                <li className="list-inline__item"><Link to="#" className="list-inline__link bold">Login</Link></li>
-            </ul>
-          </div>
-        }
-      /> */}
       <DropdownNav />
 
       <Switch>
