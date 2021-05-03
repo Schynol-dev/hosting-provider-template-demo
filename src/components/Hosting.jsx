@@ -39,7 +39,7 @@ function Hosting() {
 
         <section id="plans" className="wrapper padding">
             <div className="container">
-                <div className="flex-container space-between">
+                <div className="flex-container space-between flex-wrap">
                     <Card
                         title='Basic'
                         description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'

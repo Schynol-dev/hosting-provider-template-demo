@@ -5,6 +5,11 @@
         @include vendor('justify-content', 'space-between');
     }
 
+    &.flex-wrap {
+        @include vendor('flex-wrap', 'wrap');
+        gap: .5em;
+    }
+
     &.border-top {
         border-top: 1px solid rgba(97, 161, 161, 0.2);
     }

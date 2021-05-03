@@ -317,6 +317,12 @@ p, ul, ol, dl, table {
           justify-content: space-between;
 }
 
+.flex-container.flex-wrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: .5em;
+}
+
 .flex-container.border-top {
   border-top: 1px solid rgba(97, 161, 161, 0.2);
 }
@@ -346,6 +352,9 @@ p, ul, ol, dl, table {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 1.5em;
   background-color: #fff;
   color: #000;
   padding: 1.25em 6em;
@@ -412,7 +421,20 @@ p, ul, ol, dl, table {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 2em;
   min-height: 80vh;
+}
+
+@media screen and (max-width: 1280px) {
+  .hosting-header {
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .hosting-header__image {
@@ -421,12 +443,28 @@ p, ul, ol, dl, table {
   margin: 7% 0 0 -8em;
 }
 
+@media screen and (max-width: 1280px) {
+  .hosting-header__image {
+    max-width: auto;
+    max-height: 80vh;
+    margin: 0;
+  }
+}
+
 .hosting-header__content {
   -webkit-align-self: center;
   -ms-align-self: center;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+@media screen and (max-width: 1280px) {
+  .hosting-header__content {
+    -ms-grid-column-align: center;
+        justify-self: center;
+    margin-bottom: 2em;
+  }
 }
 
 .hosting-header__title {
@@ -500,6 +538,18 @@ p, ul, ol, dl, table {
   background-color: #fff;
   padding: 3.5em .5em 2em .5em;
   min-width: 32%;
+}
+
+@media screen and (max-width: 1280px) {
+  .card {
+    min-width: calc(50% - .25em);
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .card {
+    min-width: 100%;
+  }
 }
 
 .card__description, .card__price {
@@ -597,6 +647,13 @@ p, ul, ol, dl, table {
   height: 3em;
   outline: none;
   width: 50%;
+}
+
+@media screen and (max-width: 1280px) {
+  .domain__search {
+    width: 100%;
+    margin-top: 1em;
+  }
 }
 
 .links {

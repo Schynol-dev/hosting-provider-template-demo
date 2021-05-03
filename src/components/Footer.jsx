@@ -9,7 +9,7 @@ function Footer() {
     return (
         <div className="wrapper style2 padding">
             <div className="container">
-                <div className="domain flex-container space-between">
+                <div className="domain flex-container space-between flex-wrap">
                     <h2 className="domain__title">Search for you domain today.</h2>
                     <input type="text" className="domain__search" placeholder="Search and find out if your domain is available" />
                 </div>
@@ -44,7 +44,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="flex-container space-between">
+                <div className="flex-container space-between flex-wrap">
                     <div className="flex-item">
                         <p>Copyright © {new Date().getFullYear()} || Design: <a href="http://kamilschynol.com/" target="_blank" rel="noreferrer">Kamil Schynol</a></p>
                     </div>

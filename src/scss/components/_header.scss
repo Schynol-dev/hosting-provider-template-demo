@@ -8,16 +8,33 @@
 .hosting-header {
     @include vendor('display', 'flex');
     @include vendor('justify-content', 'space-between');
+    @include vendor('flex-wrap', 'wrap');
+    gap: 2em;
     min-height: 80vh;
+
+    @include breakpoint('<=large') {
+        @include vendor('justify-content', 'center');
+    }
 
     &__image {
         max-width: auto;
         max-height: 60vh;
         margin: 7% 0 0 -8em;
+
+        @include breakpoint('<=large') {
+            max-width: auto;
+            max-height: 80vh;
+            margin: 0;
+        }
     }
 
     &__content {
         @include vendor('align-self', 'center');
+
+        @include breakpoint('<=large') {
+            @include vendor('justify-self', 'center');
+            margin-bottom: 2em;
+        }
     }
 
     &__title {

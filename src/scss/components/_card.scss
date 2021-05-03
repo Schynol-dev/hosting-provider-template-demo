@@ -3,6 +3,14 @@
     padding: 3.5em .5em 2em .5em;
     min-width: 32%;
 
+    @include breakpoint('<=large') {
+        min-width: calc(50% - .25em);
+    }
+
+    @include breakpoint('<=small') {
+        min-width: 100%;
+    }
+
     &__description, &__price {
         font-size: .875rem;
     }
